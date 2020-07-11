@@ -51,4 +51,11 @@ text = template.format(
   blessing = blessing, 
 )
 
-writeFile('day' + str(days) + '-' + title + '.md', text) # 创建一个文件
+fileName = 'day' + str(days) + '-' + title + '.md'
+
+writeFile(fileName, text) # 创建一个文件
+
+print('completed !!!')
+print('fileName: ' + fileName)
+print('preview: \n')
+print(text)
