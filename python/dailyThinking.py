@@ -6,6 +6,7 @@ def writeFile(fileName, text):
   _file.write(text)
   _file.close()
 
+# 输入多行文本
 def genMultilineContent(tips):
   lines = []
   while True:
